@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="srptProcedimiento" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="2" bottomMargin="2" uuid="b4ed7557-44c8-45de-a8fa-55a6b7f40135">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="v_cod_procedimiento" class="java.lang.String"/>
+	<field name="v_observacion" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="50" splitType="Stretch">
+			<frame>
+				<reportElement positionType="FixRelativeToBottom" x="-9" y="11" width="570" height="39" uuid="c5784d58-1ae0-4877-bfac-55a6fcd0780b"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineColor="#1F9937"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+				</box>
+				<staticText>
+					<reportElement stretchType="ElementGroupBottom" mode="Opaque" x="0" y="18" width="30" height="21" forecolor="#FFFFFF" backcolor="#1F9937" uuid="9fc289bf-4aa4-46cc-a02e-dab5217941a4"/>
+					<box>
+						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<topPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<bottomPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[N°]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" mode="Opaque" x="30" y="18" width="240" height="21" forecolor="#FFFFFF" backcolor="#1F9937" uuid="928c364b-6d7a-4947-9258-dcb7fb575350"/>
+					<box>
+						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<topPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.25" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<bottomPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Examen]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="270" y="18" width="300" height="21" forecolor="#FFFFFF" backcolor="#1F9937" uuid="c0cd7a2c-a2db-4a3c-afca-5649d4ac0ba7"/>
+					<box>
+						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<topPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.25" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<bottomPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Observaciones]]></text>
+				</staticText>
+			</frame>
+			<staticText>
+				<reportElement mode="Opaque" x="30" y="0" width="200" height="16" forecolor="#FFFFFF" backcolor="#1F9937" uuid="23bd7431-4527-4432-9483-cb333f96164e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[PROCEDIMIENTOS]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<frame>
+				<reportElement positionType="FixRelativeToBottom" x="-9" y="0" width="570" height="30" uuid="1b353f6a-ce1e-408c-abfb-06ec11ba4400"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineColor="#1F9937"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textField isBlankWhenNull="true">
+					<reportElement x="0" y="0" width="270" height="30" uuid="fc282410-3940-4f98-bc70-e4e4a1efa666">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="de15c68e-d7a2-4c69-b40d-8a3fc11400b5"/>
+					</reportElement>
+					<box>
+						<pen lineColor="#1F9937"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top"/>
+					<textFieldExpression><![CDATA[$F{v_cod_procedimiento}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement x="270" y="0" width="300" height="30" uuid="b51ccb26-e82a-4a96-b642-81e41304c8ba">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6f6cfa1c-af96-441a-9705-54b59aefe775"/>
+					</reportElement>
+					<box>
+						<pen lineColor="#1F9937"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top"/>
+					<textFieldExpression><![CDATA[$F{v_observacion}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

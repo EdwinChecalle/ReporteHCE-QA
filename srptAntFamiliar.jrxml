@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="srptAntFamiliar" pageWidth="595" pageHeight="842" whenNoDataType="NoPages" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="2" bottomMargin="2" uuid="f249a60f-e682-422f-ab0c-906ce8a1d1a0">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="v_parentesco" class="java.lang.String"/>
+	<field name="v_antecedente" class="java.lang.String"/>
+	<field name="n_edad_aproximada" class="java.math.BigDecimal"/>
+	<field name="v_comentarios" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="50" splitType="Stretch">
+			<frame>
+				<reportElement positionType="FixRelativeToBottom" x="-9" y="11" width="570" height="39" uuid="526c7b05-c912-4771-9495-92822e658307"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineColor="#1F9937"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+				</box>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="18" width="110" height="21" forecolor="#FFFFFF" backcolor="#1F9937" uuid="c57886ea-a274-4aa8-a758-224cb52532c3"/>
+					<box>
+						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Parentesco]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="Float" mode="Opaque" x="110" y="18" width="200" height="21" forecolor="#FFFFFF" backcolor="#1F9937" uuid="429d9a9d-9ce0-4a45-af98-a25c6e78fb56"/>
+					<box>
+						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<topPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.25" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<bottomPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Antecedente]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="310" y="18" width="180" height="21" forecolor="#FFFFFF" backcolor="#1F9937" uuid="30d4f8bd-3845-45ad-ac53-8b87fe167ced"/>
+					<box>
+						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<topPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.25" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<bottomPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Comentario]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="490" y="18" width="80" height="21" forecolor="#FFFFFF" backcolor="#1F9937" uuid="a2e328f2-7875-430c-9a44-ef076bb25fec"/>
+					<box>
+						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<topPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.25" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<bottomPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Edad Apox.]]></text>
+				</staticText>
+			</frame>
+			<staticText>
+				<reportElement mode="Opaque" x="30" y="3" width="200" height="16" forecolor="#FFFFFF" backcolor="#1F9937" uuid="e3e7a6ff-bff6-44e3-b778-7f6985dd5d79"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ANTECEDENTE FAMILIAR]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<frame>
+				<reportElement positionType="FixRelativeToBottom" mode="Transparent" x="-9" y="0" width="570" height="30" uuid="30115012-65f7-4595-82ce-c2081ba6d0c3"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineWidth="1.0" lineColor="#1F9937"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textField isBlankWhenNull="true">
+					<reportElement x="0" y="0" width="110" height="30" uuid="2b706ba1-0bf7-44c3-a430-9fc29e1f60db">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2d22a46a-fa1b-4ff2-979f-e6af8801b4aa"/>
+					</reportElement>
+					<box>
+						<pen lineColor="#1F9937"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<textFieldExpression><![CDATA[$F{v_parentesco}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement stretchType="ContainerBottom" x="110" y="0" width="200" height="30" uuid="c2054a19-a2e5-4aa0-9748-0c6174f88fd0">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a758c7f4-1b2d-4bec-8b74-eea0e0831d15"/>
+					</reportElement>
+					<box>
+						<pen lineColor="#1F9937"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top"/>
+					<textFieldExpression><![CDATA[$F{v_antecedente}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement x="310" y="0" width="180" height="30" uuid="1f0d69ab-358e-4ae8-946a-a08608e38dbe">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ae0cfc29-5720-4f4e-aea8-bce2ba59ffff"/>
+					</reportElement>
+					<box>
+						<pen lineColor="#1F9937"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Top"/>
+					<textFieldExpression><![CDATA[$F{v_comentarios}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement x="490" y="0" width="80" height="30" uuid="d97b2bbf-95b0-4046-971d-3962780a6966">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="faecf42f-f25a-4b61-a97a-4f928356d0f7"/>
+					</reportElement>
+					<box>
+						<pen lineColor="#1F9937"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<textFieldExpression><![CDATA[$F{n_edad_aproximada}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
