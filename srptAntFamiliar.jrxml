@@ -9,24 +9,43 @@
 	<field name="v_antecedente" class="java.lang.String"/>
 	<field name="n_edad_aproximada" class="java.math.BigDecimal"/>
 	<field name="v_comentarios" class="java.lang.String"/>
+	<field name="n_item" class="java.math.BigDecimal"/>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
 	<columnHeader>
-		<band height="50" splitType="Stretch">
+		<band height="47" splitType="Stretch">
 			<frame>
-				<reportElement positionType="FixRelativeToBottom" x="-9" y="11" width="570" height="39" uuid="526c7b05-c912-4771-9495-92822e658307"/>
+				<reportElement positionType="Float" x="-9" y="11" width="570" height="36" uuid="526c7b05-c912-4771-9495-92822e658307"/>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
-					<pen lineColor="#1F9937"/>
-					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					<pen lineColor="#175928"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
 					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#FFFFFF"/>
-					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
 				</box>
 				<staticText>
-					<reportElement mode="Opaque" x="0" y="18" width="110" height="21" forecolor="#FFFFFF" backcolor="#1F9937" uuid="c57886ea-a274-4aa8-a758-224cb52532c3"/>
+					<reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="15" width="15" height="21" forecolor="#FFFFFF" backcolor="#175928" uuid="8b2a5e37-013d-483e-972a-dfd1386cacc5"/>
 					<box>
 						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<topPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<bottomPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[N°]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="15" y="15" width="95" height="21" forecolor="#FFFFFF" backcolor="#175928" uuid="c57886ea-a274-4aa8-a758-224cb52532c3"/>
+					<box>
+						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<topPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<leftPen lineWidth="1.25" lineStyle="Solid" lineColor="#FFFFFF"/>
+						<bottomPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
+						<rightPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
 					</box>
 					<textElement textAlignment="Center" verticalAlignment="Middle">
 						<font isBold="true"/>
@@ -34,7 +53,7 @@
 					<text><![CDATA[Parentesco]]></text>
 				</staticText>
 				<staticText>
-					<reportElement positionType="Float" mode="Opaque" x="110" y="18" width="200" height="21" forecolor="#FFFFFF" backcolor="#1F9937" uuid="429d9a9d-9ce0-4a45-af98-a25c6e78fb56"/>
+					<reportElement positionType="Float" mode="Opaque" x="110" y="15" width="200" height="21" forecolor="#FFFFFF" backcolor="#175928" uuid="429d9a9d-9ce0-4a45-af98-a25c6e78fb56"/>
 					<box>
 						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
 						<topPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
@@ -48,7 +67,7 @@
 					<text><![CDATA[Antecedente]]></text>
 				</staticText>
 				<staticText>
-					<reportElement mode="Opaque" x="310" y="18" width="180" height="21" forecolor="#FFFFFF" backcolor="#1F9937" uuid="30d4f8bd-3845-45ad-ac53-8b87fe167ced"/>
+					<reportElement mode="Opaque" x="310" y="15" width="180" height="21" forecolor="#FFFFFF" backcolor="#175928" uuid="30d4f8bd-3845-45ad-ac53-8b87fe167ced"/>
 					<box>
 						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
 						<topPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
@@ -62,7 +81,7 @@
 					<text><![CDATA[Comentario]]></text>
 				</staticText>
 				<staticText>
-					<reportElement mode="Opaque" x="490" y="18" width="80" height="21" forecolor="#FFFFFF" backcolor="#1F9937" uuid="a2e328f2-7875-430c-9a44-ef076bb25fec"/>
+					<reportElement mode="Opaque" x="490" y="15" width="80" height="21" forecolor="#FFFFFF" backcolor="#175928" uuid="a2e328f2-7875-430c-9a44-ef076bb25fec"/>
 					<box>
 						<pen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
 						<topPen lineWidth="1.25" lineStyle="Solid" lineColor="#1F9937"/>
@@ -77,7 +96,7 @@
 				</staticText>
 			</frame>
 			<staticText>
-				<reportElement mode="Opaque" x="30" y="3" width="200" height="16" forecolor="#FFFFFF" backcolor="#1F9937" uuid="e3e7a6ff-bff6-44e3-b778-7f6985dd5d79"/>
+				<reportElement mode="Opaque" x="30" y="3" width="200" height="16" forecolor="#FFFFFF" backcolor="#175928" uuid="e3e7a6ff-bff6-44e3-b778-7f6985dd5d79"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font isBold="true"/>
 				</textElement>
@@ -97,15 +116,15 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textField isBlankWhenNull="true">
-					<reportElement x="0" y="0" width="110" height="30" uuid="2b706ba1-0bf7-44c3-a430-9fc29e1f60db">
+					<reportElement x="15" y="0" width="95" height="30" uuid="2b706ba1-0bf7-44c3-a430-9fc29e1f60db">
 						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2d22a46a-fa1b-4ff2-979f-e6af8801b4aa"/>
 					</reportElement>
 					<box>
-						<pen lineColor="#1F9937"/>
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<pen lineColor="#175928"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
 					</box>
 					<textElement textAlignment="Center" verticalAlignment="Middle"/>
 					<textFieldExpression><![CDATA[$F{v_parentesco}]]></textFieldExpression>
@@ -115,11 +134,11 @@
 						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a758c7f4-1b2d-4bec-8b74-eea0e0831d15"/>
 					</reportElement>
 					<box>
-						<pen lineColor="#1F9937"/>
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<pen lineColor="#175928"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
 					</box>
 					<textElement textAlignment="Left" verticalAlignment="Top"/>
 					<textFieldExpression><![CDATA[$F{v_antecedente}]]></textFieldExpression>
@@ -129,11 +148,11 @@
 						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ae0cfc29-5720-4f4e-aea8-bce2ba59ffff"/>
 					</reportElement>
 					<box>
-						<pen lineColor="#1F9937"/>
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<pen lineColor="#175928"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
 					</box>
 					<textElement textAlignment="Left" verticalAlignment="Top"/>
 					<textFieldExpression><![CDATA[$F{v_comentarios}]]></textFieldExpression>
@@ -143,14 +162,28 @@
 						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="faecf42f-f25a-4b61-a97a-4f928356d0f7"/>
 					</reportElement>
 					<box>
-						<pen lineColor="#1F9937"/>
-						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
-						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#1F9937"/>
+						<pen lineColor="#175928"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
 					</box>
 					<textElement textAlignment="Center" verticalAlignment="Middle"/>
 					<textFieldExpression><![CDATA[$F{n_edad_aproximada}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement x="0" y="0" width="15" height="30" uuid="395a0712-3454-49f8-84d7-d9038c03aa6c">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="719d232d-f693-46f6-b836-c852663c38ae"/>
+					</reportElement>
+					<box>
+						<pen lineColor="#175928"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#175928"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<textFieldExpression><![CDATA[$F{n_item}]]></textFieldExpression>
 				</textField>
 			</frame>
 		</band>
